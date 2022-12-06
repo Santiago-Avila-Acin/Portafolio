@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  ;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.app--mobile {
+  display: grid;
+  grid-template-rows: repeat(3, auto);
+  width: 100%;
+  height: 100vh;
+  border: 23px solid #292929;
+  background-image: url('https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1366919.jpg&fm=jpg&w=640&h=960');
+  background-position:center;
+}

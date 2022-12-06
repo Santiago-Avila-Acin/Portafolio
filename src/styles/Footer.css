@@ -1,0 +1,19 @@
+.footer{
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+.scrollbar__container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.footerApp__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+}
