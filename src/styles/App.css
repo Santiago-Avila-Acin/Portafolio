@@ -15,6 +15,6 @@ html {
   width: 100%;
   height: 100vh;
   border: 23px solid #292929;
-  background-image: url('https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1366919.jpg&fm=jpg&w=640&h=960');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.265), rgba(0, 0, 0, 0.265)), url("https://images.pexels.com/photos/1366919/pexels-photo-1366919.jpeg?cs=srgb&dl=pexels-eberhard-grossgasteiger-1366919.jpg&fm=jpg&w=640&h=960");
   background-position:center;
 }

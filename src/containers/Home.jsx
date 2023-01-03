@@ -2,20 +2,22 @@ import React from 'react';
 import Application from '../components/Application';
 import "../styles/Home.css"
 
-import contact from "../assets/icons/contact.png"
+import chrome from "../assets/icons/chrome.png"
+import todoApp from "../assets/icons/todoApp.png"  
+import store from "../assets/icons/store.png"  
 
 const Applications =[
     {
         "id":1,
-        "icon":contact,
-        "name": "Todo List",
-        "url": "https://santiago-avila-acin.github.io/Todo-App/"
+        "icon":store,
+        "name": "Store",
+        "url": "https://github.com/Santiago-Avila-Acin/Responsive-online-store-react-pt2"
     },
     {
         "id":2,
-        "icon":"./",
-        "name": "",
-        "url": "https/"
+        "icon":todoApp,
+        "name": "Todo List",
+        "url": "https://santiago-avila-acin.github.io/Todo-App/"
     },
     {
         "id":3,
@@ -25,9 +27,9 @@ const Applications =[
     },
     {
         "id":4,
-        "icon":"./",
-        "name": "",
-        "url": "https/"
+        "icon":chrome,
+        "name": "Chrome",
+        "url": "https://santiago-avila-acin.github.io/clone-google-practice/"
     },
     {
         "id":5,
